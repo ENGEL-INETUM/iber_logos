@@ -3,7 +3,7 @@ function copyToClipboard(id) {
 
     // Crear un elemento de texto temporal
     const tempInput = document.createElement("input");
-    tempInput.value = window.location.href + imgElement.src;
+    tempInput.value = imgElement.src;
 
     // Agregar el elemento a la página
     document.body.appendChild(tempInput);
